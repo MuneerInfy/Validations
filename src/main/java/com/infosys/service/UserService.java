@@ -29,7 +29,7 @@ public class UserService {
 		
 		boolean b=repository.existsById(user.getUid());
 		
-		if(b == false)
+		if(b == true)
 			throw new UserAlreadyExist("User Id already exsists.Please try with the new one...");
 		
 		
