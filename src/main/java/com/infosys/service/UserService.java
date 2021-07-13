@@ -38,7 +38,7 @@ public class UserService {
 			entity.setName(user.getUname());
 			entity.setEmail(user.getUemail());
 			repository.save(entity);
-			return "User Registered Successfully with the ID "+entity.getId();
+			return "User Registered Successfully ...";
 		
 		}
 	
